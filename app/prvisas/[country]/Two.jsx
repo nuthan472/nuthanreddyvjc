@@ -145,7 +145,7 @@ const Migrate = () => {
               <Australiapr />
             ) : selectedVisa.path === "/prvisas/ukpr" ? (
               <UKpr />
-            ) : selectedVisa.path === "/prvisas/newzelandpr" ? (
+            ) : selectedVisa.path === "/prvisas/newzealandpr" ? (
               <Newzelandpr />
             ) : selectedVisa.path === "/prvisas/germanybluecard" ? (
               <Germanybluecard />

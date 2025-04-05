@@ -58,7 +58,7 @@ const Migrate = () => {
           name="keywords"
           content="Germany Job Seeker Visa, Austria Visa, Portugal Job Visa, Sweden Job Visa, UAE Job Visa, Norway Work Visa"
         />
-        <link rel="canonical" href="https://www.vjcoverseas.com/Jobseeker" />
+        <link rel="canonical" />
       </Head>
 
       <div className="w-full min-h-screen bg-gradient-to-r from-orange-400 to-white text-white">

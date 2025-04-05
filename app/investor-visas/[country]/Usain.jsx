@@ -4,11 +4,11 @@ const USAInvestorVisa = () => {
   return (
     <div style={{ 
       fontFamily: "Times New Roman", 
-      padding: "20px", 
-      fontSize: "20px",  // Corrected from "fontsize" to "fontSize"
+      padding: "10px", 
+      fontSize: "18px",  // Corrected from "fontsize" to "fontSize"
       lineHeight: "1.7"  // Adjusts line spacing
     }}>
-      <h1 className="text-3xl font-bold text-center mb-6 " style={{ textAlign: "center" }}>USA Investor Visa - <span style={{ color: "orange" }}>VJC Overseas</span></h1>
+      <h1 className="text-2xl font-bold text-center mb-6 " style={{ textAlign: "center" }}>USA Investor Visa - <span style={{ color: "orange" }}>VJC Overseas</span></h1>
       
       <h2>Introduction to the USA Investor Visa</h2>
       <p>

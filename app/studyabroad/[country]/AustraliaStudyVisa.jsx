@@ -2,8 +2,8 @@ import React from "react";
 
 const AustraliaStudentVisa = () => {
   return (
-    <div className="p-6 max-w-5xl mx-auto text-justify">
-      <h1 className="text-2xl md:text-3xl font-bold mb-6" style={{ fontFamily: 'Times New Roman' }}>
+    <div className="p-6 max-w-4xl mx-auto text-justify">
+      <h1 className="text-2xl md:text-2xl font-bold mb-6" style={{ fontFamily: 'Times New Roman' }}>
         Study in Australia with <span className="text-orange-500">VJC Overseas</span>: Affordable Education at Top-Ranked Universities
       </h1>
 

@@ -2,99 +2,96 @@ import React from "react";
 
 const StudyInPhilippines = () => {
   return (
-    <div style={{ fontFamily: "Times New Roman", padding: "20px",fontSize: "20px" }}>
-      <h1 className="text-3xl font-bold text-center">
-        Study in the Philippines: Affordable Education & Unmatched Benefits |{' '}
+    <div style={{ fontFamily: "Times New Roman, serif", padding: "20px", lineHeight: "1.7", fontSize: "18px" }}>
+      <h1 className="text-2xl font-bold text-center mb-6">
+        🎓 Study in the Philippines: Affordable Education & Unmatched Benefits |{" "}
         <span style={{ color: "orange" }}>VJC Overseas</span>
       </h1>
+
       <p>
-        Studying abroad is an exciting opportunity to gain a world-class
-        education while experiencing a vibrant, diverse culture. The
-        Philippines has emerged as one of the top destinations for international
-        students looking for high-quality education at affordable prices. At{' '}
-        <span style={{ color: "orange" }}>VJC Overseas</span>, we guide you through the
-        process of studying in the Philippines, from understanding college/university fees
-        to exploring the many benefits this beautiful country offers.
+        ✈️ Dreaming of studying abroad without breaking the bank? The Philippines is the ideal destination that combines world-class education, affordability, and a warm cultural experience. 🌴
       </p>
-      <h2>Why Study in the Philippines?</h2>
       <p>
-        The Philippines is renowned for its excellent educational system, especially in
-        fields like Medicine, Nursing, Engineering, Business, and Hospitality.
-        But what makes the Philippines truly special for international students is
-        its combination of high-quality education, affordability, and a welcoming
-        environment for overseas learners.
+        At <span style={{ color: "orange" }}>VJC Overseas</span>, we make your study abroad journey stress-free – from university selection and visa application to accommodation and beyond.
       </p>
-      <h3>1. Affordable Tuition Fees</h3>
+
+      <h2 className="text-xl font-semibold mt-6">🌟 Why Choose the Philippines for Higher Education?</h2>
+      <ul>
+        <li>➤ <strong>Globally Recognized Programs:</strong> Popular for Medicine, Nursing, Business, Engineering & Hospitality.</li>
+        <li>➤ <strong>Affordable Education:</strong> Study at a fraction of the cost compared to Western countries.</li>
+        <li>➤ <strong>English-Medium Instruction:</strong> All courses are taught in English! 🗣️</li>
+        <li>➤ <strong>Welcoming Culture:</strong> 🇵🇭 Friendly locals and safe environment for international students.</li>
+        <li>➤ <strong>Great for Medical Studies:</strong> A hotspot for MBBS & healthcare courses. 🏥</li>
+      </ul>
+
+      <h2 className="text-xl font-semibold mt-6">🏫 Top Universities in the Philippines</h2>
+      <ul>
+        <li>✔️ University of the Philippines</li>
+        <li>✔️ Ateneo de Manila University</li>
+        <li>✔️ De La Salle University</li>
+        <li>✔️ University of Santo Tomas</li>
+        <li>✔️ Cebu Doctors' University</li>
+      </ul>
+
+      <h2 className="text-xl font-semibold mt-6">💰 Fee Structure & Living Costs</h2>
+
+      <h3 className="font-semibold mt-3">🎓 Undergraduate Programs</h3>
+      <ul>
+        <li>➤ Tuition: PHP 40,000 – 120,000/year ($800 – $2,400 USD)</li>
+        <li>➤ Living: PHP 10,000 – 25,000/month (food, rent, transport)</li>
+      </ul>
+
+      <h3 className="font-semibold mt-3">🎓 Postgraduate & Medical Programs</h3>
+      <ul>
+        <li>➤ Tuition: PHP 50,000 – 150,000/year ($1,000 – $3,000 USD)</li>
+        <li>➤ MBBS/Nursing: PHP 200,000 – 500,000/year ($4,000 – $10,000 USD)</li>
+      </ul>
+
+      <h3 className="font-semibold mt-3">🧾 Other Expenses</h3>
+      <ul>
+        <li>✔️ Books: PHP 5,000 – 10,000/year</li>
+        <li>✔️ Insurance: PHP 10,000 – 15,000/year</li>
+        <li>✔️ Visa & Misc: PHP 5,000 – 10,000</li>
+      </ul>
+
+      <h2 className="text-xl font-semibold mt-6">🎯 Key Benefits of Studying in the Philippines</h2>
+      <ul>
+        <li>🌍 High-Quality, Recognized Education</li>
+        <li>📚 Affordable Tuition & Cost of Living</li>
+        <li>🗣️ English-Speaking Environment</li>
+        <li>👫 Warm, Hospitable Culture</li>
+        <li>🏖️ Fun Student Life + Island Adventures</li>
+        <li>🌐 Strong Career Pathways Globally</li>
+      </ul>
+
+      <h2 className="text-xl font-semibold mt-6">📌 Things to Consider Before Applying</h2>
+      <ul>
+        <li>➤ Accreditation of the University</li>
+        <li>➤ Availability of Desired Program</li>
+        <li>➤ Campus Location & Lifestyle</li>
+        <li>➤ Support for International Students</li>
+      </ul>
+
+      <h2 className="text-xl font-semibold mt-6">
+        🚀 Start Your Journey with <span style={{ color: "orange" }}>VJC Overseas</span>
+      </h2>
       <p>
-        One of the main reasons students choose the Philippines for their higher education
-        is its affordability. Tuition fees in Philippine colleges and universities are
-        significantly lower compared to other popular study destinations like the US, UK,
-        or Australia.
+        Let <span style={{ color: "orange" }}>VJC Overseas</span> be your gateway to top universities in the Philippines! We offer:
       </p>
       <ul>
-        <li>Undergraduate Programs: PHP 40,000 - PHP 120,000 per year ($800 - $2,400 USD).</li>
-        <li>Postgraduate Programs: PHP 50,000 - PHP 150,000 per year ($1,000 - $3,000 USD).</li>
-        <li>Medical Courses: PHP 200,000 - PHP 500,000 per year ($4,000 - $10,000 USD).</li>
+        <li>✔️ Free Career Counseling</li>
+        <li>✔️ University & Course Selection</li>
+        <li>✔️ Documentation & Application Assistance</li>
+        <li>✔️ Visa Guidance & Mock Interviews</li>
+        <li>✔️ Accommodation & Travel Support</li>
       </ul>
-      <h3>2. Living Costs in the Philippines</h3>
-      <ul>
-        <li>Accommodation: PHP 5,000 - PHP 15,000 per month ($100 - $300 USD).</li>
-        <li>Food & Transportation: PHP 5,000 - PHP 10,000 per month ($100 - $200 USD).</li>
-      </ul>
-      <h2>Top Benefits of Studying in the Philippines</h2>
-      <h3>1. High-Quality Education</h3>
-      <p>
-        Philippine universities and colleges are known for their excellent educational standards.
-        Institutions like the University of the Philippines, Ateneo de Manila University,
-        and De La Salle University provide globally recognized degrees.
+
+      <p className="mt-4">
+        🌟 Your dream of studying abroad is closer than ever. Affordable fees, vibrant campus life, and endless career possibilities await you in the Philippines.
       </p>
-      <h3>2. English Language Proficiency</h3>
-      <p>
-        English is one of the official languages in the Philippines, and all academic courses
-        are taught in English, making it easier for international students to adapt.
-      </p>
-      <h3>3. World-Class Medical Education</h3>
-      <p>
-        The Philippines is renowned for its medical programs, particularly in MBBS and nursing.
-        Many institutions offer globally recognized degrees that allow students to practice
-        medicine internationally.
-      </p>
-      <h3>4. Cultural Diversity</h3>
-      <p>
-        The Philippines is a multicultural country, known for its warm hospitality and diverse
-        cultural heritage. The friendly nature of Filipinos makes it easy for international
-        students to feel at home.
-      </p>
-      <h3>5. Vibrant Student Life</h3>
-      <p>
-        The Philippines offers an exciting student life filled with extracurricular activities,
-        cultural events, and sports. Whether it’s exploring pristine beaches or hiking, the
-        Philippines has it all.
-      </p>
-      <h3>6. Pathway to Global Careers</h3>
-      <p>
-        Studying in the Philippines provides access to a global network of alumni and job
-        opportunities in various industries worldwide.
-      </p>
-      <h2>Key Factors to Consider When Choosing a University</h2>
-      <ul>
-        <li>Accreditation and Recognition</li>
-        <li>Course Offerings</li>
-        <li>Location</li>
-        <li>Student Support</li>
-      </ul>
-      <h2>Conclusion: Why <span style={{ color: "orange" }}>VJC Overseas</span> is Your Gateway to Studying in the Philippines</h2>
-      <p>
-        At <span style={{ color: "orange" }}>VJC Overseas</span>, we are committed to helping you navigate your journey
-        to study in the Philippines. From selecting the best university for your academic
-        goals to assisting with your visa process and accommodation, we provide personalized
-        support every step of the way.
-      </p>
-      <p>
-        Studying in the Philippines is an investment in your future—high-quality education,
-        affordable living costs, and the opportunity to immerse yourself in a vibrant
-        culture. Contact us today to learn more about how you can start your academic
-        journey in the Philippines!
+
+      <p className="mt-2">
+        📞 Contact <span style={{ color: "orange" }}>VJC Overseas</span> today and take the first step toward your global academic journey!
       </p>
     </div>
   );

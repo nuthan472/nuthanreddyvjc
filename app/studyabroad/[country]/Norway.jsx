@@ -3,7 +3,7 @@ import React from "react";
 const StudyInNorway = () => {
   return (
     <div className="p-6 max-w-5xl mx-auto text-justify">
-      <h1 className="text-3xl font-bold text-center" style={{ fontFamily: 'Times New Roman' }}>
+      <h1 className="text-2xl font-bold text-center" style={{ fontFamily: 'Times New Roman' }}>
         Study in Norway with <span style={{ color: 'orange' }}>VJC Overseas</span>: Affordable Education, World-Class Opportunities
       </h1>
       <p className="mt-4 text-lg" style={{ fontFamily: 'Times New Roman' }}>

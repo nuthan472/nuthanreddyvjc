@@ -2,7 +2,7 @@ import React from "react";
 
 const UKResumeMarketing = () => {
   return (
-    <div className="p-6 max-w-4xl mx-auto text-gray-900" style={{ fontFamily: "Times New Roman, serif" }}>
+    <div className="p-2 max-w-4xl mx-auto text-gray-900" style={{ fontFamily: "Times New Roman, serif" }}>
       <h1 className="text-3xl font-bold text-center mb-4">UK Resume Marketing Services | <span className="text-orange-500">VJC Overseas</span></h1>
       
       <p className="mb-4">Unlock Your Career Potential with Professional UK Resume Marketing</p>

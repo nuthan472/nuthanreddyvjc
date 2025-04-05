@@ -3,7 +3,7 @@ import Head from 'next/head';
 export default function AustraliaResumeMarketing() {
   return (
     <div style={{ 
-      fontFamily: 'Times New Roman, serif', 
+      fontFamily: 'Times New Roman', 
       padding: '24px', 
       fontSize: '18px', 
       lineHeight: '1.6', 

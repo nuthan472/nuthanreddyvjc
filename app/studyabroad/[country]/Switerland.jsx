@@ -1,46 +1,98 @@
 import React from "react";
+import { ArrowRight } from "lucide-react";
 
 const StudyInSwitzerland = () => {
   return (
-    <div style={{ fontFamily: "Times New Roman", padding: "20px" ,fontSize: "20px"}}>
-      <h1 className="text-3xl font-bold text-center" style={{ color: "#333" }}>
+    <div className="p-6 md:p-4 font-[Times_New_Roman] text-lg leading-relaxed  text-justify space-y-4">
+      <h1 className="text-3xl font-bold text-center text-gray-800">
         Study in Switzerland: A World-Class Education Awaits You!
       </h1>
+
       <p>
         Switzerland is known for its excellence in education, offering world-class universities and colleges that provide exceptional learning experiences. Whether you're seeking a high-quality undergraduate degree, a specialized postgraduate program, or a diploma in a technical field, Switzerland offers unparalleled academic opportunities. On this page, we will guide you through the costs of studying in Switzerland and highlight the unique benefits of pursuing your higher education in this beautiful, multicultural country.
       </p>
-      <h2>Why Study in Switzerland?</h2>
-      <ul>
-        <li><strong>Top-Ranking Universities and Colleges:</strong> Switzerland is home to some of the world’s top-ranking universities, such as ETH Zurich and EPFL, renowned for their cutting-edge research, innovation, and high academic standards.</li>
-        <li><strong>Multicultural Environment and International Recognition:</strong> With four official languages (German, French, Italian, and Romansh), Switzerland embraces diversity and provides students with the chance to interact with people from around the globe.</li>
-        <li><strong>Strategic Location in Europe:</strong> Switzerland’s central location in Europe makes it an ideal place for students who wish to explore neighboring countries.</li>
+
+      <h2 className="text-2xl font-semibold">Why Study in Switzerland?</h2>
+      <ul className="space-y-3">
+        <li className="flex items-start gap-2">
+          <ArrowRight className="text-orange-500 mt-1" size={20} />
+          <span>
+            <strong>Top-Ranking Universities and Colleges:</strong> ETH Zurich and EPFL are renowned globally for their research, innovation, and academic excellence.
+          </span>
+        </li>
+        <li className="flex items-start gap-2">
+          <ArrowRight className="text-orange-500 mt-1" size={20} />
+          <span>
+            <strong>Multicultural Environment:</strong> With four official languages and a diverse international community, Switzerland fosters global connections.
+          </span>
+        </li>
+        <li className="flex items-start gap-2">
+          <ArrowRight className="text-orange-500 mt-1" size={20} />
+          <span>
+            <strong>Strategic European Location:</strong> Ideal base for students to explore neighboring countries across Europe.
+          </span>
+        </li>
       </ul>
 
-      <h2>Tuition Fees at Swiss Universities</h2>
-      <ul>
-        <li><strong>Undergraduate Fees:</strong> CHF 500 to CHF 2,000 per year at public universities; CHF 5,000 to CHF 25,000 at private institutions.</li>
-        <li><strong>Postgraduate Fees:</strong> CHF 1,000 to CHF 3,000 per year at public universities; CHF 10,000 to CHF 35,000 at private institutions.</li>
-        <li><strong>Additional Costs:</strong> Living expenses range from CHF 1,500 to CHF 2,500 per month, covering accommodation, food, and transportation.</li>
+      <h2 className="text-2xl font-semibold">Tuition Fees at Swiss Universities</h2>
+      <ul className="space-y-3">
+        <li className="flex items-start gap-2">
+          <ArrowRight className="text-orange-500 mt-1" size={20} />
+          <span><strong>Undergraduate:</strong> CHF 500 – 2,000/year (public); CHF 5,000 – 25,000/year (private)</span>
+        </li>
+        <li className="flex items-start gap-2">
+          <ArrowRight className="text-orange-500 mt-1" size={20} />
+          <span><strong>Postgraduate:</strong> CHF 1,000 – 3,000/year (public); CHF 10,000 – 35,000/year (private)</span>
+        </li>
+        <li className="flex items-start gap-2">
+          <ArrowRight className="text-orange-500 mt-1" size={20} />
+          <span><strong>Living Costs:</strong> CHF 1,500 – 2,500/month including rent, food, and transport</span>
+        </li>
       </ul>
 
-      <h2>Benefits of Studying in Switzerland</h2>
-      <ul>
-        <li><strong>High-Quality Education and Research Opportunities:</strong> Switzerland is a leader in research and development in fields like engineering, medicine, and finance.</li>
-        <li><strong>Safe and High-Standard Living Environment:</strong> Switzerland consistently ranks as one of the safest countries in the world.</li>
-        <li><strong>Career Opportunities and Networking:</strong> Switzerland is home to multinational corporations in banking, pharmaceuticals, and engineering.</li>
-        <li><strong>Exceptional Quality of Life and Natural Beauty:</strong> Switzerland offers breathtaking landscapes, outdoor activities, and an outstanding quality of life.</li>
+      <h2 className="text-2xl font-semibold">Benefits of Studying in Switzerland</h2>
+      <ul className="space-y-3">
+        <li className="flex items-start gap-2">
+          <ArrowRight className="text-orange-500 mt-1" size={20} />
+          <span><strong>Top-tier Education:</strong> Renowned for R&D in engineering, finance, and medicine</span>
+        </li>
+        <li className="flex items-start gap-2">
+          <ArrowRight className="text-orange-500 mt-1" size={20} />
+          <span><strong>Safe and Clean Environment:</strong> Switzerland ranks among the safest countries globally</span>
+        </li>
+        <li className="flex items-start gap-2">
+          <ArrowRight className="text-orange-500 mt-1" size={20} />
+          <span><strong>Career Potential:</strong> Home to global corporations in banking, pharma, and engineering</span>
+        </li>
+        <li className="flex items-start gap-2">
+          <ArrowRight className="text-orange-500 mt-1" size={20} />
+          <span><strong>Stunning Nature:</strong> Enjoy lakes, mountains, and outdoor adventures year-round</span>
+        </li>
       </ul>
 
-      <h2>Scholarships and Financial Aid</h2>
-      <p>Various scholarships are available for international students, including government scholarships, university-specific scholarships, and private funding sources.</p>
-
-      <h2>Conclusion: Take the First Step Towards Your Swiss Education</h2>
+      <h2 className="text-2xl font-semibold">Scholarships and Financial Aid</h2>
       <p>
-        Studying in Switzerland offers numerous benefits, from world-class education to a rich cultural experience. Whether you choose to study in Zurich, Geneva, or Lucerne, Switzerland’s educational institutions will equip you with the skills and knowledge needed to succeed in today’s competitive global job market.
+        Switzerland offers a wide range of scholarship opportunities for international students including:
+      </p>
+      <ul className="space-y-2 pl-4 list-disc">
+        <li>Swiss Government Excellence Scholarships</li>
+        <li>University-specific merit-based scholarships</li>
+        <li>Private foundations and international aid</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold">Conclusion: Take the First Step</h2>
+      <p>
+        Studying in Switzerland offers you a unique blend of academic excellence, cultural diversity, and life-changing experiences. Whether you're aiming for Zurich, Geneva, or Lausanne — you’re in for an inspiring journey.
       </p>
       <p>
-        Are you ready to take the next step in your academic journey? Get in touch with <span style={{ color: "orange" }}>VJC Overseas</span> today to learn more about how we can assist you in applying to top universities in Switzerland. Let us guide you toward your dream education in one of the most prestigious academic destinations in the world.
+        Ready to begin? Contact <span className="text-orange-500 font-semibold">VJC Overseas</span> today and let us help you explore top universities in Switzerland, craft a winning application, and secure your dream admission!
       </p>
+
+      <div className="text-center mt-6">
+        <p className="font-semibold">📞 +91-9160449000</p>
+        <p className="font-semibold">📧 info@vjcoverseas.com</p>
+        <p className="font-semibold">📍 HYDERABAD | BENGALURU | USA</p>
+      </div>
     </div>
   );
 };

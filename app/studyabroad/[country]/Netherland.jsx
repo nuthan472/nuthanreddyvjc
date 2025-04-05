@@ -1,66 +1,123 @@
 import React from "react";
+import {
+  ArrowRight,
+  ArrowBigRightDash,
+  CheckCircle2,
+  Star,
+  School,
+  Euro,
+  Briefcase,
+  Building2,
+} from "lucide-react";
 
 const StudyNetherlands = () => {
   return (
-    <div style={{ fontFamily: "Times New Roman, Times, serif", padding: "20px",fontSize: "20px" }}>
-      <h1 className="text-3xl font-bold text-center">
-        Study in the Netherlands with <span style={{ color: "orange" }}>VJC Overseas</span>: Your Gateway to a Bright Future
+    <div className="text-[Times New Roman]  p- md:p-4  text-lg bg-white text-gray-800 space-y-6">
+      <h1 className="text-2xl font-bold text-center">
+        Study in the Netherlands with{" "}
+        <span className="text-orange-500">VJC Overseas</span>: Your Gateway to a Bright Future
       </h1>
+
       <p>
-        Are you considering pursuing higher education in the Netherlands? Known for its high academic standards, diverse cultural environment, and excellent quality of life, the Netherlands is one of the top destinations for international students. At <span style={{ color: "orange" }}>VJC Overseas</span>, we are committed to guiding you through every step of the process, from selecting the right college or university to understanding the costs and benefits of studying in this vibrant country.
+        Are you considering pursuing higher education in the Netherlands? Known for its high academic standards,
+        diverse cultural environment, and excellent quality of life, the Netherlands is one of the top destinations
+        for international students. At <span className="text-orange-500">VJC Overseas</span>, we are committed to
+        guiding you through every step of the process.
       </p>
-      <h2>Why Choose the Netherlands for Higher Education?</h2>
-      <ul>
-        <li><strong>High-Quality Education:</strong> Dutch universities are globally recognized for their rigorous academic standards, offering a variety of undergraduate, postgraduate, and research programs.</li>
-        <li><strong>Cultural Diversity:</strong> With students from all over the world, studying in the Netherlands offers an excellent opportunity to learn in a multicultural environment.</li>
-        <li><strong>Innovative and Practical Approach:</strong> Dutch education emphasizes critical thinking, teamwork, and hands-on learning, preparing students for the global job market.</li>
-      </ul>
-      <h2>Top Universities and Colleges in the Netherlands</h2>
-      <ol>
-        <li><strong>Delft University of Technology (TU Delft)</strong> - Known for its engineering and technical programs.</li>
-        <li><strong>University of Amsterdam (UvA)</strong> - Offers a wide range of courses in social sciences, humanities, and business.</li>
-        <li><strong>Leiden University</strong> - Renowned for its law, humanities, and science programs.</li>
-        <li><strong>Eindhoven University of Technology (TU Eindhoven)</strong> - Focused on technology and innovation.</li>
-        <li><strong>Wageningen University & Research</strong> - Specializes in agricultural and environmental sciences.</li>
-        <li><strong>Rotterdam School of Management, Erasmus University</strong> - One of the top business schools in Europe.</li>
-      </ol>
-      <h2>Tuition Fees in the Netherlands</h2>
-      <ul>
-        <li><strong>Bachelor’s Degree:</strong> €6,000 - €15,000 per year for non-EU students</li>
-        <li><strong>Master’s Degree:</strong> €8,000 - €20,000 per year for non-EU students</li>
-        <li><strong>PhD Programs:</strong> Fees vary depending on the university and research program.</li>
-      </ul>
-      <h2>Living Costs and Accommodation in the Netherlands</h2>
-      <ul>
-        <li><strong>Rent:</strong> €300 - €1,000 per month</li>
-        <li><strong>Food and Groceries:</strong> €150 - €250 per month</li>
-        <li><strong>Utilities:</strong> €100 - €150 per month</li>
-        <li><strong>Transportation:</strong> €35 - €100 per month</li>
-      </ul>
-      <h2>Work Opportunities While Studying</h2>
-      <p>
-        The Netherlands offers excellent work opportunities for international students:
-      </p>
-      <ul>
-        <li>Up to 16 hours per week during the academic year</li>
-        <li>Full-time during the summer months (June to August)</li>
-      </ul>
-      <p>
-        Post-Graduation Work Visa: After completing studies, students can apply for the orientation year (zoekjaar) residence permit to stay in the Netherlands for up to one year to find work.
-      </p>
-      <h2>Benefits of Studying in the Netherlands</h2>
-      <ul>
-        <li>Quality Education</li>
-        <li>International Environment</li>
-        <li>Work Opportunities</li>
-        <li>Affordable Tuition</li>
-        <li>Strategic Location</li>
-        <li>Excellent Student Life</li>
-      </ul>
-      <h2>Conclusion</h2>
-      <p>
-        Studying in the Netherlands offers a unique opportunity to experience world-class education while enjoying a vibrant, multicultural environment. At <span style={{ color: "orange" }}>VJC Overseas</span>, we are here to help you navigate every step of your journey. Contact us today to get started!
-      </p>
+
+      <section>
+        <h2 className="text-2xl font-semibold flex items-center gap-2">
+          <Star className="text-orange-500" /> Why Choose the Netherlands?
+        </h2>
+        <ul className="list-none pl-4 space-y-2 mt-2">
+          <li className="flex gap-2 items-start">
+            <ArrowRight className="text-orange-400 mt-1" />
+            <span><strong>High-Quality Education:</strong> Globally recognized universities with top academic standards.</span>
+          </li>
+          <li className="flex gap-2 items-start">
+            <ArrowRight className="text-orange-400 mt-1" />
+            <span><strong>Cultural Diversity:</strong> A multicultural environment welcoming students worldwide.</span>
+          </li>
+          <li className="flex gap-2 items-start">
+            <ArrowRight className="text-orange-400 mt-1" />
+            <span><strong>Innovative & Practical:</strong> Focus on real-world learning, teamwork, and critical thinking.</span>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold flex items-center gap-2">
+          <School className="text-orange-500" /> Top Universities in the Netherlands
+        </h2>
+        <ol className="list-decimal list-inside pl-4 mt-2 space-y-1">
+          <li><strong>TU Delft</strong> – Engineering & technical excellence.</li>
+          <li><strong>University of Amsterdam</strong> – Social sciences & humanities leader.</li>
+          <li><strong>Leiden University</strong> – Law, humanities, and science-focused.</li>
+          <li><strong>TU Eindhoven</strong> – Tech and innovation driven.</li>
+          <li><strong>Wageningen University</strong> – Agriculture & environmental sciences.</li>
+          <li><strong>Rotterdam School of Management</strong> – Premier business education.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold flex items-center gap-2">
+          <Euro className="text-orange-500" /> Tuition Fees
+        </h2>
+        <ul className="list-none pl-4 space-y-2 mt-2">
+          <li><ArrowBigRightDash className="inline-block text-orange-400 mr-2" />Bachelor’s: €6,000 - €15,000/year</li>
+          <li><ArrowBigRightDash className="inline-block text-orange-400 mr-2" />Master’s: €8,000 - €20,000/year</li>
+          <li><ArrowBigRightDash className="inline-block text-orange-400 mr-2" />PhD: Varies by program</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold flex items-center gap-2">
+          <Building2 className="text-orange-500" /> Living Costs
+        </h2>
+        <ul className="list-disc list-inside pl-4 mt-2 space-y-1">
+          <li>Rent: €300 - €1,000/month</li>
+          <li>Food: €150 - €250/month</li>
+          <li>Utilities: €100 - €150/month</li>
+          <li>Transportation: €35 - €100/month</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold flex items-center gap-2">
+          <Briefcase className="text-orange-500" /> Work Opportunities
+        </h2>
+        <p>International students can work:</p>
+        <ul className="list-disc list-inside pl-4 mt-2 space-y-1">
+          <li>Up to 16 hours/week during term</li>
+          <li>Full-time during summer (June–August)</li>
+        </ul>
+        <p className="mt-2">
+          <strong>Post-study visa:</strong> Orientation year (zoekjaar) allows 1-year stay to find a job.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold flex items-center gap-2">
+          <CheckCircle2 className="text-orange-500" /> Benefits of Studying in the Netherlands
+        </h2>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 pl-4 mt-2">
+          <li className="flex items-center gap-2"><ArrowRight className="text-orange-400" /> Quality Education</li>
+          <li className="flex items-center gap-2"><ArrowRight className="text-orange-400" /> Affordable Tuition</li>
+          <li className="flex items-center gap-2"><ArrowRight className="text-orange-400" /> International Community</li>
+          <li className="flex items-center gap-2"><ArrowRight className="text-orange-400" /> Excellent Job Market</li>
+          <li className="flex items-center gap-2"><ArrowRight className="text-orange-400" /> Strategic European Location</li>
+          <li className="flex items-center gap-2"><ArrowRight className="text-orange-400" /> High Quality of Life</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold">Conclusion</h2>
+        <p>
+          Studying in the Netherlands offers a unique opportunity to experience world-class education in a vibrant,
+          multicultural setting. At <span className="text-orange-500">VJC Overseas</span>, we're here to help you every step of the way.
+          Reach out today and let’s start planning your future!
+        </p>
+      </section>
     </div>
   );
 };

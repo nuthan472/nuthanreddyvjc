@@ -2,50 +2,71 @@ import React from "react";
 
 const StudyInSingapore = () => {
   return (
-    <div style={{ fontFamily: "Times New Roman",fontSize: "20px", padding: "20px" }}>
-      <h1 className="text-3xl font-bold mb-4">
-        Welcome to <span style={{ color: "orange" }}>VJC Overseas</span>: Your Gateway to Study in Singapore
+    <div style={{ fontFamily: "Times New Roman", fontSize: "18px", padding: "20px", lineHeight: "1.8" }}>
+      <h1 className="text-2xl font-bold mb-6 text-center">
+        Welcome to <span style={{ color: "orange" }}>VJC Overseas</span><br />Your Gateway to Study in <span style={{ color: "#007bff" }}>Singapore</span>
       </h1>
       <p>
-        Are you looking to pursue higher education in one of the most prestigious educational hubs of Asia? Welcome to <span style={{ color: "orange" }}>VJC Overseas</span>! We specialize in providing expert guidance and assistance to students who aspire to study in Singapore, home to world-class universities and colleges. With our professional advice and support, you can unlock a successful academic journey in Singapore’s thriving educational landscape.
+        ➤ Are you looking to pursue higher education in one of the most prestigious educational hubs of Asia? <br />
+        ➤ Welcome to <span style={{ color: "orange" }}>VJC Overseas</span>! We specialize in providing expert guidance and assistance to students aspiring to study in Singapore.<br />
+        ➤ With our support, unlock a successful academic journey in Singapore’s thriving educational landscape.
       </p>
-      <h2>Why Study in Singapore?</h2>
+
+      <hr style={{ margin: "25px 0", border: "1px dashed #ccc" }} />
+
+      <h2 className="text-xl font-semibold mb-2" style={{ color: "#1c1c1c" }}>🎓 Why Study in Singapore?</h2>
       <ul>
-        <li><strong>World-Class Universities & Colleges:</strong> Home to top-ranked institutions such as National University of Singapore (NUS), Nanyang Technological University (NTU), Singapore Management University (SMU), and Singapore University of Technology and Design (SUTD).</li>
-        <li><strong>Cultural Diversity:</strong> Study in a cosmopolitan environment that attracts students from all over the world, enriching your academic and social experiences.</li>
-        <li><strong>Post-Graduation Opportunities:</strong> Singapore’s strong economy offers numerous job opportunities for international graduates.</li>
-        <li><strong>High Quality of Life:</strong> Singapore boasts a safe, clean, and efficient environment with excellent public services.</li>
+        <li>➤ <b>World-Class Universities & Colleges:</b> Home to top-ranked institutions like NUS, NTU, SMU, SUTD.</li>
+        <li>➤ <b>Cultural Diversity:</b> Study in a cosmopolitan environment with students from across the globe.</li>
+        <li>➤ <b>Post-Graduation Opportunities:</b> Singapore’s strong economy offers great career prospects.</li>
+        <li>➤ <b>High Quality of Life:</b> Enjoy a safe, clean, and efficient environment with world-class public services.</li>
       </ul>
-      <h2>Top Universities and Colleges in Singapore</h2>
+
+      <hr style={{ margin: "25px 0", border: "1px dotted #ccc" }} />
+
+      <h2 className="text-xl font-semibold mb-2" style={{ color: "#1c1c1c" }}>🏫 Top Universities and Colleges in Singapore</h2>
       <ul>
-        <li><strong>National University of Singapore (NUS)</strong> - Fees: SGD 17,550 to SGD 56,000 per year (Undergraduate), SGD 26,000 to SGD 58,000 per year (Graduate)</li>
-        <li><strong>Nanyang Technological University (NTU)</strong> - Fees: SGD 18,000 to SGD 47,000 per year (Undergraduate), SGD 24,000 to SGD 48,000 per year (Graduate)</li>
-        <li><strong>Singapore Management University (SMU)</strong> - Fees: SGD 29,000 to SGD 50,000 per year (Undergraduate), SGD 30,000 to SGD 65,000 per year (Graduate)</li>
-        <li><strong>Singapore University of Technology and Design (SUTD)</strong> - Fees: SGD 18,000 to SGD 40,000 per year (Undergraduate), SGD 20,000 to SGD 50,000 per year (Graduate)</li>
-        <li><strong>INSEAD Asia Campus</strong> - Fees: SGD 115,000 (MBA Program)</li>
+        <li>➤ <b>National University of Singapore (NUS)</b> – SGD 17,550 to SGD 56,000/year</li>
+        <li>➤ <b>Nanyang Technological University (NTU)</b> – SGD 18,000 to SGD 47,000/year</li>
+        <li>➤ <b>Singapore Management University (SMU)</b> – SGD 29,000 to SGD 50,000/year</li>
+        <li>➤ <b>Singapore University of Technology and Design (SUTD)</b> – SGD 18,000 to SGD 40,000/year</li>
+        <li>➤ <b>INSEAD Asia Campus</b> – SGD 115,000 (MBA Program)</li>
       </ul>
-      <h2>Benefits of Studying in Singapore</h2>
+
+      <hr style={{ margin: "25px 0", border: "1px dashed #ccc" }} />
+
+      <h2 className="text-xl font-semibold mb-2" style={{ color: "#1c1c1c" }}>🌟 Benefits of Studying in Singapore</h2>
       <ul>
-        <li>High-Quality Education</li>
-        <li>Global Recognition</li>
-        <li>Strategic Location</li>
-        <li>Affordable Education</li>
-        <li>Excellent Infrastructure</li>
-        <li>Work and Stay Opportunities</li>
+        <li>➤ High-Quality Education</li>
+        <li>➤ Global Recognition</li>
+        <li>➤ Strategic Location</li>
+        <li>➤ Affordable Education</li>
+        <li>➤ Excellent Infrastructure</li>
+        <li>➤ Work and Stay Opportunities</li>
       </ul>
-      <h2>Study in Singapore with <span style={{ color: "orange" }}>VJC Overseas</span></h2>
+
+      <hr style={{ margin: "25px 0", border: "1px dotted #ccc" }} />
+
+      <h2 className="text-xl font-semibold mb-2" style={{ color: "#1c1c1c" }}>
+        ✨ Study in Singapore with <span style={{ color: "orange" }}>VJC Overseas</span>
+      </h2>
       <p>
-        At <span style={{ color: "orange" }}>VJC Overseas</span>, we are committed to helping you achieve your dreams of studying in Singapore. Our services include:
+        At <span style={{ color: "orange" }}>VJC Overseas</span>, we are committed to turning your dream into reality. We offer:
       </p>
       <ul>
-        <li>University & College Admissions Guidance</li>
-        <li>Scholarship Assistance</li>
-        <li>Visa Support</li>
-        <li>Accommodation and Living Guidance</li>
+        <li>➤ University & College Admissions Guidance</li>
+        <li>➤ Scholarship Assistance</li>
+        <li>➤ Visa Support</li>
+        <li>➤ Accommodation and Living Guidance</li>
       </ul>
-      <h2>Take the First Step Toward Your Future Today!</h2>
-      <p>
-        At <span style={{ color: "orange" }}>VJC Overseas</span>, we ensure that your study abroad experience in Singapore is seamless and successful. Contact us today to get started on your journey!
+
+      <hr style={{ margin: "25px 0", border: "1px dashed #ccc" }} />
+
+      <h2 className="text-2xl text-center font-bold mb-4" style={{ color: "#333" }}>
+        🚀 Take the First Step Toward Your Future Today!
+      </h2>
+      <p className="text-center">
+        Contact <span style={{ color: "orange" }}>VJC Overseas</span> today and begin your incredible academic journey in Singapore!
       </p>
     </div>
   );

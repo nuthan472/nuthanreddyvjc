@@ -4,11 +4,11 @@ const PortugalInvestorVisa = () => {
   return (
     <div style={{ 
       fontFamily: "Times New Roman", 
-      padding: "20px", 
-      fontSize: "20px",  // Corrected from "fontsize" to "fontSize"
+      padding: "10px", 
+      fontSize: "18px",  // Corrected from "fontsize" to "fontSize"
       lineHeight: "1.7"  // Adjusts line spacing
     }}>
-      <h1 className="text-3xl md:text-4xl font-bold text-center mb-6">
+      <h1 className="text-3xl md:text-2xl font-bold text-center mb-6">
         <span className="text-orange-500">VJC Overseas</span> - Portugal Investor Visa
       </h1>
       <p className="text-lg text-center mb-6">

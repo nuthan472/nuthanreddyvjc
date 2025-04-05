@@ -2,48 +2,59 @@ import React from 'react';
 
 const StudyInLuxembourg = () => {
   return (
-    <div style={{ fontFamily: 'Times New Roman, Times, serif', padding: '20px', lineHeight: '1.6' ,fontSize: "20px"}}>
-      <h1 className="text-3xl font-bold mb-4" style={{ textAlign: 'center', color: '#ff8c00' }}>Study in Luxembourg: A Gateway to Quality Education, Diverse Culture & Excellent Opportunities</h1>
+    <div style={{ fontFamily: 'Times New Roman, Times, serif', padding: '20px', lineHeight: '1.7', fontSize: '18px' }}>
+      <h1 className="text-2xl font-bold mb-6 text-center" style={{ color: '#ff8c00' }}>
+        🎓 Study in Luxembourg: A Gateway to Quality Education, Diverse Culture & Excellent Opportunities
+      </h1>
+
       <p>
-        Luxembourg, a small yet dynamic country at the heart of Europe, offers world-class education, a rich cultural heritage,
-        and unique work opportunities that make it a top destination for international students. Studying in Luxembourg not only
-        provides access to some of the best universities and colleges but also allows you to experience an unparalleled lifestyle.
+        🇱🇺 Luxembourg, a small yet dynamic country at the heart of Europe, offers <strong>world-class education</strong>, a rich cultural heritage,
+        and unique work opportunities that make it a top destination for international students.
       </p>
-      <h2>Why Study in Luxembourg?</h2>
       <p>
-        Luxembourg boasts a robust education system with institutions offering a wide range of programs in English, French, and German.
-        With its blend of international student community and cutting-edge academic research, Luxembourg provides a conducive environment
-        for personal and professional growth.
+        🌍 Studying in Luxembourg not only provides access to top universities and colleges but also allows you to enjoy an unmatched European lifestyle.
       </p>
-      <h2>Top Colleges & Universities in Luxembourg</h2>
-      <ul>
-        <li><strong>University of Luxembourg</strong> - Offers various undergraduate, graduate, and Ph.D. programs and is renowned for its research.</li>
-        <li><strong>Luxembourg Institute of Science and Technology (LIST)</strong> - Specializes in IT, engineering, and innovation programs.</li>
-        <li><strong>Sacred Heart University Luxembourg</strong> - Provides business administration and finance programs.</li>
-      </ul>
-      <h2>University Fees & Financial Aid</h2>
-      <p>Tuition fees for non-EU international students range from €2,000 to €6,000 per year. Scholarships such as the Luxembourg Government Scholarship are available.</p>
-      <h2>Cost of Living</h2>
-      <ul>
-        <li>Accommodation: €500 - €1,000 per month</li>
-        <li>Food & Groceries: €250 - €350 per month</li>
-        <li>Transportation: Free for all residents</li>
-        <li>Miscellaneous Expenses: €150 - €250 per month</li>
-      </ul>
-      <h2>Work Opportunities for International Students</h2>
-      <p>Students can work up to 15 hours per week during the semester, earning €12-€20 per hour. Internship and post-graduation work visa options are also available.</p>
-      <h2>Benefits of Studying in Luxembourg</h2>
-      <ul>
-        <li>Cultural Diversity: Over 170 nationalities coexist in Luxembourg.</li>
-        <li>Proximity to Major European Cities: Easy access to Paris, Brussels, and Frankfurt.</li>
-        <li>High Quality of Life: One of the safest and most stable countries.</li>
-        <li>Language Skills: Opportunities to learn French, German, and Luxembourgish.</li>
-      </ul>
-      <h2>Conclusion: Make Luxembourg Your Study Destination</h2>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">➡️ Why Study in Luxembourg?</h2>
       <p>
-        Luxembourg offers an unbeatable combination of high-quality education, a strong job market, and a rich cultural experience.
-        For more information on studying in Luxembourg and to explore your options, reach out to
-        <span style={{ color: '#ff8c00', fontWeight: 'bold' }}> VJC Overseas</span>.
+        Luxembourg boasts a robust education system with multilingual programs (English, French, German), a diverse student community,
+        and research-driven institutions that support personal and professional development.
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">🏫 Top Colleges & Universities in Luxembourg</h2>
+      <ul className="list-disc ml-5">
+        <li>🎓 <strong>University of Luxembourg</strong> – Known for top-tier research & multi-language programs.</li>
+        <li>⚙️ <strong>Luxembourg Institute of Science and Technology (LIST)</strong> – Specializes in STEM innovation.</li>
+        <li>💼 <strong>Sacred Heart University Luxembourg</strong> – Ideal for business and finance professionals.</li>
+      </ul>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">💰 University Fees & Financial Aid</h2>
+      <p>📚 Tuition fees range from <strong>€2,000 – €6,000/year</strong>. Scholarships like the <em>Luxembourg Government Scholarship</em> are available for international students.</p>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">🏠 Cost of Living</h2>
+      <ul className="list-disc ml-5">
+        <li>🏡 Accommodation: <strong>€500 - €1,000/month</strong></li>
+        <li>🍽️ Food & Groceries: <strong>€250 - €350/month</strong></li>
+        <li>🚌 Transportation: <strong>Free for all residents</strong></li>
+        <li>🎉 Miscellaneous: <strong>€150 - €250/month</strong></li>
+      </ul>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">🧑‍💼 Work Opportunities</h2>
+      <p>💼 Students can work up to <strong>15 hours/week</strong> during the semester, earning <strong>€12-€20/hour</strong>. Internship and post-graduation work visa options are widely available.</p>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">🌟 Benefits of Studying in Luxembourg</h2>
+      <ul className="list-disc ml-5">
+        <li>🌐 Cultural Diversity – Home to <strong>170+ nationalities</strong>.</li>
+        <li>🚄 Proximity to Paris, Brussels & Frankfurt.</li>
+        <li>🛡️ Ranked among the <strong>safest and most stable</strong> countries in the world.</li>
+        <li>🗣️ Improve your <strong>multilingual skills</strong> (French, German, Luxembourgish).</li>
+      </ul>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">📍 Conclusion: Make Luxembourg Your Study Destination</h2>
+      <p>
+        ✨ Luxembourg offers an unbeatable combination of high-quality education, a strong job market, and a rich European lifestyle.
+        For personalized guidance and expert support, connect with 
+        <span style={{ color: '#ff8c00', fontWeight: 'bold' }}> VJC Overseas</span> today.
       </p>
     </div>
   );

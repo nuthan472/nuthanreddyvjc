@@ -27,7 +27,7 @@ export default function Two() {
   return (
     <>
      {/* 🔹 Extra Space for Small Screens Only */}
-     <div className="block sm:hidden lg:block h-16"></div>
+     <div className="block sm:hidden lg:block h-16 lg:-translate-y-4 lg:transition-transform lg:duration-300"></div>
 
  <section className="w-full overflow-hidden py-4 ">
   <Marquee speed={60} pauseOnHover={true} gradient={true} gradientWidth={50}>
@@ -49,8 +49,8 @@ export default function Two() {
           src={country.src}
           alt={country.alt}
           width={120}
-          height={80}
-          className="w-full max-w-[100px] gap-x-6  mx-4 sm:max-w-[120px] h-auto rounded-md shadow-lg hover:scale-110 transition-transform duration-300"
+          height={120}
+          className="w-full max-w-[100px] sm:max-w-[120px] h-auto mx-6 gap-x-8  transition-transform duration-300 hover:scale-110 lg:hover:-translate-y-4"
         />
         <p className="text-xs sm:text-sm gap-x-6 font-semibold mt-1 sm:mt-2 text-blue-600 text-center">
           {country.alt}

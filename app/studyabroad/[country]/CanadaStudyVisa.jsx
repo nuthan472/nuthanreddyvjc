@@ -3,7 +3,7 @@ import React from "react";
 const CanadaStudentVisa = () => {
   return (
     <div className="p-6 max-w-5xl mx-auto text-justify">
-      <h1 className="text-3xl font-bold mb-4 text-blue-600" style={{ fontFamily: 'Times New Roman' }}>
+      <h1 className="text-2xl font-bold mb-4 text-blue-600" style={{ fontFamily: 'Times New Roman' }}>
         Canada Student Visa: Your Pathway to World-Class Education
       </h1>
       <p className="mb-4" style={{ fontFamily: 'Times New Roman' }}>

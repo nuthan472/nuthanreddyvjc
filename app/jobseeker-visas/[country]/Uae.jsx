@@ -2,7 +2,7 @@ import React from "react";
 
 const UAEJobseekerVisa = () => {
   return (
-    <div style={{ fontFamily: "Times New Roman, Times, serif", padding: "20px", lineHeight: "1.8", fontSize: "22px" }}>
+    <div style={{ fontFamily: "Times New Roman, Times, serif", padding: "20px", lineHeight: "1.8", fontSize: "18px" }}>
 
       <h1 className="text-3xl font-bold mb-4" style={{ fontWeight: "bold", marginBottom: "10px" }}>
         UAE Jobseeker Visa – Your Gateway to Career Opportunities in 

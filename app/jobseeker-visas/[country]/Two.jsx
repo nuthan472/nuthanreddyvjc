@@ -23,7 +23,7 @@ const visaData = [
 ];
 const defaultVisa = {
   name: "Permanent Residency Visa",
-  path: "/jobseeker",
+  path: "/jobseeker-visas",
   image: "/pr1.jpg",
 };
 

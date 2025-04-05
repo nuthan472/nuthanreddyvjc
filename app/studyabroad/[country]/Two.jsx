@@ -28,6 +28,7 @@ import Ireland from "./Ireland";
 import Netherland from "./Netherland";
 import Lux from "./Lux";
 import Dubai from "./Dubai";
+import Denmarkstudy from "./Denmarkstudy";
 
 const visaData = [
   { name: "Study in USA", path: "/studyabroad/usa", image: "/usa1.jpg" ,component:"./USAStudyVisa"},
@@ -48,7 +49,7 @@ const visaData = [
   { name: "Study in Netherlands", path: "/studyabroad/netherlands", image: "/net.webp" },
   { name: "Study in Switzerland", path: "/studyabroad/switerland", image: "/sw.webp" },
   { name: "Study in Denmark", path: "/studyabroad/denmark", image: "/de.jpg" },
-  { name: "Study in Dubai", path: "/studyabroad/Dubai", image: "/du.webp" },
+  { name: "Study in Dubai", path: "/studyabroad/dubai", image: "/du.webp" },
   { name: "Study in Luxembourg", path: "/studyabroad/luxembourg", image: "/lux.jpg" },
   { name: "Study in Hongkong", path: "/studyabroad/hongkong", image: "/hk.jpg" },
   { name: "Study in UAE", path: "/studyabroad/uae", image: "/ua.jpg" },
@@ -195,6 +196,8 @@ const Migrate = () => {
     <Lux />
   ) : selectedVisa.name === "Study in Dubai" ? (
     <Dubai />
+  ) : selectedVisa.name === "Study in Denmark" ? (
+    <Denmarkstudy />
   ) : (
     <div className="text-gray-700 text-lg leading-relaxed">
       Please select a visa type from the left to view more details.

@@ -30,7 +30,7 @@ const visaData = [
   { name: "Study in Netherlands", path: "/studyabroad/netherlands", image: "/net.webp" },
   { name: "Study in Switzerland", path: "/studyabroad/switerland", image: "/sw.webp" },
   { name: "Study in Denmark", path: "/studyabroad/denmark", image: "/de.jpg" },
-  { name: "Study in Dubai", path: "/studyabroad/Dubai", image: "/du.webp" },
+  { name: "Study in Dubai", path: "/studyabroad/dubai", image: "/du.webp" },
   { name: "Study in Luxembourg", path: "/studyabroad/luxembourg", image: "/lux.jpg" },
   { name: "Study in Hongkong", path: "/studyabroad/hongkong", image: "/hk.jpg" },
   { name: "Study in UAE", path: "/studyabroad/uae", image: "/ua.jpg" },

@@ -2,7 +2,7 @@ import React from "react";
 
 const StudyInNewZealand = () => {
   return (
-    <div style={{ fontFamily: "Times New Roman", padding: "20px",fontSize: "20px" }}>
+    <div style={{ fontFamily: "Times New Roman", padding: "20px",fontSize: "18px" }}>
       <h1>
         Welcome to <span style={{ color: "orange" }}>VJC</span> Overseas – Your Gateway to Studying in New Zealand
       </h1>
