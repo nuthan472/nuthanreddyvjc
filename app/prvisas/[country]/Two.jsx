@@ -30,7 +30,7 @@ const visaData = [
   },
   {
     name: "New Zealand Permanent Residency Visa",
-    path: "/prvisas/newzelandpr",
+    path: "/prvisas/newzealandpr",
     image: "/nzpr.jpg",
   },
   {
