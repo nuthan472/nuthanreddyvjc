@@ -6,7 +6,7 @@ import Link from "next/link";
 const sliderData = [
   {
     services: [
-      { text: "Apply For Canada Permanent Residency", link: "/PR-visas/canadapr" },
+      { text: "Apply For Canada Permanent Residency", link: "/prvisas/canadapr" },
       { text: "Apply For Canada Study Visa", link: "/migrate/canada/student-visa" },
     ],
     backgroundImage: "/canada.webp",
@@ -53,7 +53,7 @@ const sliderData = [
     services: [
       { text: "Apply For Malta Study Visa", 
         link: "/malta" }],
-    backgroundImage: "/malta.png",
+    backgroundImage: "/mata.png",
     title: "Malta",
     gradient: "bg-gradient-to-r from-red-700 to-white", // Malta color gradient
   },

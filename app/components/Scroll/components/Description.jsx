@@ -38,9 +38,14 @@ export default function Description() {
         >
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 px-6 py-4 flex flex-col justify-between text-center mb-28">
                 <h3 className="text-2xl font-bold text-black uppercase mb-0">Canada</h3>
-                <button className="px-6 py-2 text-md font-semibold text-white uppercase whitespace-nowrap ml-6 mb-2">
-                    Free Assessment
+                <a href="/assessment" target="_blank" rel="noopener noreferrer">
+                <button 
+                    className="px-6 py-2 text-md font-semibold text-white uppercase whitespace-nowrap ml-6 mb-2"
+                >
+                 Free Assessment
                 </button>
+                </a>
+
                 <p className="text-sm text-black max-w-44 ml-1">Check your possibilities and planning of expenses to Settle and Study in Canada.</p>
             </div>
         </div>
@@ -54,11 +59,13 @@ export default function Description() {
                 height: '500px',
             }}
         >
-            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 px-6 py-4 flex flex-col justify-between text-center mb-[5.60rem]">
+            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 px-6 py-4 flex flex-col justify-between text-center mb-28">
                 <h3 className="text-2xl font-bold text-black uppercase mb-0">Australia</h3>
-                <button className="px-6 py-2 text-md font-semibold text-white uppercase whitespace-nowrap ml-6 mb-3">
+                <a href="/assessment" target="_blank" rel="noopener noreferrer">
+                <button className="px-6 py-2 text-md font-semibold text-white uppercase whitespace-nowrap ml-6 mb-2">
                 Free Assessment
                 </button>
+                </a>
                 <p className="text-sm text-black max-w-64 mr-8">Know your visa probability<br /> and Eligibility of Permanent<br /> Residency and Study in Australia</p>
             </div>
         </div>
@@ -74,9 +81,11 @@ export default function Description() {
         >
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 px-6 py-4 flex flex-col justify-between text-center mb-[5.50rem]">
                 <h3 className="text-2xl font-bold text-black uppercase mb-0">USA</h3>
+                <a href="/assessment" target="_blank" rel="noopener noreferrer">
                 <button className="px-6 py-2 text-md font-semibold text-white uppercase whitespace-nowrap ml-6 mb-2">
                 Free Assessment
                 </button>
+                </a>
                 <p className="text-sm text-black max-w-44 ml-4">Check your possibilities and planning of expenses to move on to USA.</p>
             </div>
         </div>
@@ -92,9 +101,11 @@ export default function Description() {
         >
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 px-6 py-4 flex flex-col justify-between text-center mb-[5.80rem]">
                 <h3 className="text-2xl font-bold text-black uppercase mb-0">Germany</h3>
+                <a href="/assessment" target="_blank" rel="noopener noreferrer">
                 <button className="px-6 py-2 text-md font-semibold text-white uppercase whitespace-nowrap ml-6 mb-2">
                 Free Assessment
                 </button>
+                </a>
                 <p className="text-sm text-black max-w-72 mr-6">Check your Documentation <br />and Process for Germany Opportunity Card Visa <br /> and Germany Study Visa.</p>
             </div>
         </div>
@@ -110,9 +121,11 @@ export default function Description() {
         >
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 px-6 py-4 flex flex-col justify-between text-center mb-[7.20rem]">
                 <h3 className="text-2xl font-bold text-black uppercase ">UK</h3>
+                <a href="/assessment" target="_blank" rel="noopener noreferrer">
                 <button className="px-6 py-2 text-md font-semibold text-white uppercase whitespace-nowrap mb-1">
                 Free Assessment
                 </button>
+                </a>
                 <p className="text-sm text-black max-w-44">Know your chances and estimated expenses to study in UK.</p>
             </div>
         </div>
