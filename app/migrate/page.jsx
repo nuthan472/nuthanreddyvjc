@@ -67,15 +67,17 @@ const ContactPage = () => {
             initial="hidden"
             animate="visible"
           >
-            <motion.h1
-              className="font-semibold uppercase leading-tight text-teal-950 text-3xl sm:text-4xl md:text-5xl lg:text-[3.50rem] mt-12 sm:mt-12"
+            <motion.h1 
+             className=" w-full px-2 py-8 sm:py-0 block font-semibold uppercase leading-tight text-teal-950 text-3xl sm:text-4xl md:text-5xl lg:text-[3.50rem] mt-12 sm:mt-0"
+
               style={{ fontFamily: "Times New Roman, serif" }} 
               variants={titleVariants}
             >
               Migrate to Your Dream Country
             </motion.h1>
             <motion.p
-              className="flex text-black tracking-tight text-left md:font-medium max-w-xl lg:max-w-lg mt-6"
+              className="flex text-black tracking-tight text-left md:font-medium max-w-xl lg:max-w-lg -mt-4  ml-4 sm:mt-6"
+
               style={{ fontWeight: "bolder", fontFamily: "Times New Roman, serif"}}
               variants={descriptionVariants}
             >
@@ -86,7 +88,8 @@ const ContactPage = () => {
           </motion.div>
 
           {/* Form Section */}
-          <div className="w-full lg:w-1/2 lg:mr-16 lg:mt-14">
+          <div className="w-[110%] -ml-[8%] -mr-[8%] sm:w-[115%] sm:-ml-[7.5%] md:w-full md:ml-0 lg:w-1/2 lg:mr-16 lg:mt-14">
+
             <Form />
           </div>
         </div>
