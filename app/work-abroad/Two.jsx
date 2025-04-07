@@ -113,7 +113,7 @@ const Migrate = () => {
   transition={{ delay: 1, duration: 1 }}
   className="absolute z-20 w-[92%] max-w-[700px] bg-gray-800 text-white p-5 lg:p-8 overflow-y-auto
   max-h-[55vh] sm:max-h-[60vh] md:max-h-[65vh] lg:max-h-[60vh] xl:max-h-[65vh]
-  left-4 sm:left-4 md:left-1/2 md:transform md:-translate-x-1/2 lg:left-[47%] lg:-translate-x-[52%]
+  left-4 sm:left-4 md:left-1/2 md:transform md:-translate-x-1/2 lg:left-[40%] lg:-translate-x-[52%]
   bottom-[-25%] sm:bottom-[-20%] md:bottom-[-12%] lg:bottom-[-14%] xl:bottom-[-12%]"
 
 
@@ -156,7 +156,8 @@ style={{ fontFamily: 'Times New Roman, serif' }}
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="w-full mt-32 px-4 lg:px-20 relative"
+        className="w-full mt-40 sm:mt-48 lg:mt-32 px-4 lg:px-20 relative"
+
         >
           <h2 className="text-2xl lg:text-3xl font-semibold text-center mb-6">
             Select Your Work Permit Destination
@@ -216,8 +217,7 @@ style={{ fontFamily: 'Times New Roman, serif' }}
               initial={{ scale: 0.9, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/2 min-h-[350px] lg:min-h-[500px] bg-contain lg:bg-cover bg-center bg-no-repeat"
-
+            className="w-full lg:w-1/2 min-h-[300px] sm:min-h-[400px] lg:min-h-[420px] bg-contain bg-center bg-no-repeat"
               
               style={{
                 backgroundImage: "url('/nuthan.jpg')",

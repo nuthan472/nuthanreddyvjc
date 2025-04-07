@@ -72,19 +72,19 @@ const ResumeMarketingBook = () => {
 
   return (
   
-<div className="relative w-full min-h-screen bg-cover bg-center px-4 sm:px-6 py-8 sm:py-12 bg-black bg-opacity-50"
+<div className="relative w-full min-h-screen bg-cover bg-center px-4 sm:px-6 py-8 sm:py-12 bg-black/50"
      style={{ backgroundImage: "url('/Return-to-office.webp')" }}>
       <audio ref={flipSoundRef} src="/flip.mp3" preload="auto" />
     
       {/* Top Section */}
-      <div className="flex flex-col lg:flex-row justify-center  lg:justify-end items-start gap-10 mt-8">
+      <div className="flex flex-col lg:flex-row justify-center  lg:justify-end ml-24 items-start gap-10 mt-8">
         {/* Left Content */}
-        <div className="w-full lg:w-1/2 space-y-6 px-2 sm:px-4 bg-black bg-opacity-50 mt-12 sm:mt-24 lg:mt-36 lg:pr-18">
+        <div className="w-full lg:w-1/2 space-y-6 px-2 sm:px-4  bg-opacity/50 mt-12 sm:mt-24 lg:mt-36 lg:pr-18">
           <motion.h1
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-3xl sm:text-4xl font-bold text-white drop-shadow-xl"
+            className="text-3xl sm:text-4xl font-bold  bg-gradient-to-r from-orange-500 to-black bg-clip-text text-transparent drop-shadow-xl"
           >
             Explore Global Resume Marketing
           </motion.h1>
@@ -199,7 +199,7 @@ const ResumeMarketingBook = () => {
     </motion.p>
 
     {/* Scrollable Content Box Starts Here */}
-    <div className="max-h-[400px] sm:max-h-[500px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-300 space-y-4 text-sm sm:text-base text-black bg-white p-4 border border-gray-500 backdrop-blur-md font-[Times_New_Roman]">
+    <div className="max-h-[400px] sm:max-h-[500px] w-full sm:w-[600px] lg:w-[530px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-300 space-y-4 text-sm sm:text-base text-black bg-white p-4 border border-gray-500 backdrop-blur-md font-[Times_New_Roman]">
       <p className="font-bold text-lg text-black">
         Resume Marketing Services at <span className="text-orange-600">VJC Overseas</span>
       </p>

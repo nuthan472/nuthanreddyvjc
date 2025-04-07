@@ -1,6 +1,12 @@
-import CountryClient from "./CountryClient";
+"use client";
 
-// Metadata map
+import { useEffect, useState } from "react";
+import Nav from "./Nav";
+
+import Two from "./Two";
+import Footer from "./Footer";
+import { notFound } from "next/navigation";
+
 const metaData = {
   usa: {
     title: "Study in USA - Visa Support | VJC Overseas",
@@ -20,16 +26,32 @@ const metaData = {
   },
 };
 
-export function generateMetadata({ params }) {
-  const country = params.country.toLowerCase();
-  const data = metaData[country];
+export default function CountryClient({ country }) {
+  const [meta, setMeta] = useState(null);
 
-  return {
-    title: data?.title || "VJC Overseas – Global Education Experts",
-    description: data?.description || "Explore global study abroad opportunities with VJC Overseas.",
-  };
-}
+  useEffect(() => {
+    const data = metaData[country?.toLowerCase()];
+    if (!data) {
+      notFound(); // trigger 404
+    } else {
+      setMeta(data);
+    }
+  }, [country]);
 
-export default function CountryPage({ params }) {
-  return <CountryClient country={params.country} />;
+  if (!meta) return null;
+
+  return (
+    <>
+      <div style={{ marginTop: "5%", zIndex: 20, position: "relative" }}>
+        <Nav />
+      </div>
+
+     
+        {/* Additional Sections */}
+      
+        <Two />
+        <Footer />
+     
+    </>
+  );
 }

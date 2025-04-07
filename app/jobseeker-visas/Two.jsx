@@ -48,19 +48,6 @@ const Migrate = () => {
 
   return (
     <>
-      <Head>
-        <title>Job Seeker Visas - VJC Overseas</title>
-        <meta
-          name="description"
-          content="Apply for Germany, Austria, Portugal, Sweden, Norway, and UAE Job Seeker Visas with expert guidance from VJC Overseas."
-        />
-        <meta
-          name="keywords"
-          content="Germany Job Seeker Visa, Austria Visa, Portugal Job Visa, Sweden Job Visa, UAE Job Visa, Norway Work Visa"
-        />
-        <link rel="canonical" />
-      </Head>
-
       <div className="w-full min-h-screen bg-gradient-to-r from-orange-400 to-white text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-16 grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* LEFT SECTION - Image */}
@@ -75,8 +62,9 @@ const Migrate = () => {
             />
           </div>
 
+         
           {/* RIGHT SECTION - Visa Buttons */}
-          <div className="flex flex-col space-y-10 center justify-start lg:ml-36 mt-10 sm:mt-16">
+          <div className="flex flex-col space-y-10 justify-start mt-10 sm:mt-16 ml-12 sm:ml-16 lg:ml-28">
             {showButtons &&
               visaData.map((visa, index) => {
                 const isEven = index % 2 === 0;
@@ -97,7 +85,7 @@ const Migrate = () => {
                         rotate: [0, -3, 3, -2, 2, 0],
                         transition: { duration: 0.6 },
                       }}
-                      className="w-full max-w-[320px] text-left bg-white border-l-[6px] border-orange-600 hover:border-orange-800 hover:shadow-xl transition-all duration-300 px-4 py-3 rounded-xl text-base font-semibold text-gray-800 hover:bg-orange-600 hover:text-white shadow-md"
+                      className="w-full max-w-[320px] text-left bg-white border-l-[6px]  border-orange-600 hover:border-orange-800 hover:shadow-xl transition-all duration-300 px-4 py-3 rounded-xl text-base font-semibold text-gray-800 hover:bg-orange-600 hover:text-white shadow-md"
                     >
                       {visa.name}
                     </motion.button>
@@ -115,7 +103,7 @@ const Migrate = () => {
         {/* BOTTOM SECTION - Text + Form */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-12 mt-20 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Text */}
-          <div className="space-y-6 lg:-ml-14">
+          <div className="space-y-6 lg:-ml-18">
             <motion.h2
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
@@ -168,7 +156,8 @@ const Migrate = () => {
       {/* POPUP FORM */}
       {showFormPopup && (
   <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
-    <div className="relative bg-gradient-to-br from-black/50 to-gray/50 -mt-24 md:-mt-24  shadow-2xl p-6 sm:p-6 max-w-md w-full max-h-[80vh] animate-fadeIn">
+  <div className="relative bg-gradient-to-br from-black/50 to-gray/50 -mt-2 sm:-mt-6 md:-mt-2 shadow-2xl px-4 py-4 sm:px-6 sm:py-6 max-w-md w-full max-h-[100vh] animate-fadeIn">
+
       <button
         onClick={() => setShowFormPopup(false)}
         className="absolute top-3 right-3 text-gray-200 font-fold hover:text-red-600 transition"

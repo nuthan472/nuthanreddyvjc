@@ -137,7 +137,7 @@ const Migrate = () => {
         </div>
 
 {/* RIGHT SIDE: Combined Text Section */}
-<div className="w-full md:w-1/2 max-w-full h-[120vh] overflow-y-auto pr-4" style={{ fontFamily: 'Times New Roman, serif' }}>
+<div className="w-full md:w-1/2 max-w-full h-[150vh] overflow-y-auto pr-4" style={{ fontFamily: 'Times New Roman, serif' }}>
   <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-800">
     <span className="text-orange-600">VJC Overseas</span> - Start Your Investment Journey
   </h2>
