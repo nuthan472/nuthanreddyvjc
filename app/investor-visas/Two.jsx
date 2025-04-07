@@ -31,21 +31,47 @@ const Migrate = () => {
   };
 
   return (
-    <div className="relative w-full flex flex-col items-center text-white px-4 sm:px-6 md:px-10 pb-10 bg-white overflow-hidden">
-      {/* Background Image */}
-      <div
-        className="relative inset-0  w-screen max-w-none xl:w-[100vw] 3xl:w-[100vw]  h-[600px] sm:h-[600px] md:h-[600px] bg-cover bg-center"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
-        <div className="absolute inset-0 bg-black opacity-20" />
+    <div className="relative  flex flex-col items-center text-white px-4 sm:px-6 md:px-10 pb-10 bg-white overflow-hidden">
+    {/* Background Image */}
+    <div
+      className="relative inset-0 w-screen max-w-none xl:w-[100vw] 2xl:w-[100vw] h-[600px] sm:h-[600px] md:h-[600px] bg-cover bg-center"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/50" />
+  
+      {/* Content */}
+      <div className="relative z-20 text-center px-4 sm:px-10 mt-32 ">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
+          Investor Visas
+        </h1>
+  
+        <p className="text-base sm:text-lg md:text-xl text-white max-w-2xl mx-auto mb-6">
+          Explore global opportunities with our expert Investor Visa guidance.
+          <br />
+          Secure your future in leading countries through strategic investments.
+        </p>
+  
+        <Link href="/assessment">
+          <button
+            onClick={() => setShowAssessment(true)}
+            className="bg-gradient-to-r from-orange-500 to-white text-black font-semibold 
+                       px-2 py-2 sm:px-6 sm:py-3 rounded-full shadow-md 
+                       hover:from-orange-600 hover:to-white hover:text-white 
+                       transition duration-200  sm:w-auto text-sm sm:text-base"
+          >
+             Free Visa Assessment
+          </button>
+        </Link>
       </div>
+    </div>
 
       {/* Scrollable Cards Section */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="absolute top-[500px] z-20 w-full flex justify-center"
+        className="absolute top-[500px] z-18 w-full flex justify-center"
       >
         <div className="flex items-center justify-center w-full max-w-7xl space-x-2 px-2">
           <button
@@ -90,7 +116,7 @@ const Migrate = () => {
       </motion.div>
 
       {/* Image + Form on Left and Combined Text on Right */}
-      <div className="relative z-10 mt-[200px] w-full max-w-6xl mx-auto flex flex-col md:flex-row items-start gap-12 px-4">
+      <div className="relative z-10 mt-[200px] w-full max-w-6xl mx-auto flex flex-col md:flex-row items-start gap-12 px-2">
         {/* LEFT SIDE: Image + Form */}
         <div className="w-full md:w-1/2 flex flex-col gap-8">
           {/* Image Section */}
@@ -100,7 +126,7 @@ const Migrate = () => {
               alt="Migration Image"
               width={600}
               height={400}
-              className="w-full max-w-[90%] sm:max-w-[80%] md:max-w-full object-cover rounded-xl"
+              className="w-full max-w-[90%] sm:max-w-[80%] md:max-w-full object-cover "
             />
           </div>
 
